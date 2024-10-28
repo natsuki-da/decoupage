@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { Fonts } from "../../global/Global.Styles";
+import { Colors, Fonts } from "../../global/Global.Styles";
 
 export const Container = styled.div`
 width: 100%;
 height: 30rem;
-background-color: rgba(249,230,222, 0.5);
+background-color: ${Colors.SecondaryOpacity};
 margin: 6rem 0;
 display: flex;
 `;
