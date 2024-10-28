@@ -13,6 +13,7 @@ const Course = () => {
         slidesToScroll: 1,
         infinite: true,
         autoplay: false,
+        arrows: true,
     };
 
     return (

@@ -6,7 +6,7 @@ const CourseAdvanced = () => {
             <S.Left>
                 <S.Description>
                     <div>Advanced Course</div>
-                    <span>Hello, my name is...</span>
+                    <span>アドバンスコースの説明</span>
                 </S.Description>
             </S.Left>
             <S.Right>

@@ -1,8 +1,9 @@
 import styled from "styled-components"
-import { Colors, Fonts } from "../../global/Global.Styles";
+import { Fonts } from "../../global/Global.Styles";
 
 export const Container = styled.div`
   display: flex;
+  padding: 0 5%;
 `;
 
 export const Left = styled.div`
@@ -11,11 +12,12 @@ export const Left = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;  
+  position: relative;
 `;
 
 export const Image = styled.img`
   position: absolute;
+  margin: 0 auto;
   right: 5%;
   left: 5%;
   width: 90%;
@@ -35,8 +37,7 @@ export const Description = styled.div`
   right: 5%;
   left: 5%;
   width: 90%;
-  height: 85%;
-// background-color: ${Colors.Primary};
+  height: 80%;
   div {
     font-size: 2.5rem;
     font-family: ${Fonts.CAVEAT};

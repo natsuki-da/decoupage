@@ -1,33 +1,25 @@
 import styled from "styled-components";
-import { Colors, Fonts } from "../../global/Global.Styles";
+import { Fonts } from "../../global/Global.Styles";
 
 export const Container = styled.div`
 width: 100%;
-padding: 5rem 0 1.5rem 0;
+height: 30rem;
+background-color: rgba(249,230,222, 0.5);
+margin: 6rem 0;
 display: flex;
 `;
 
 export const Left = styled.div`
-  flex: 3;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  position: relative;
-  background-color: ${Colors.Primary};
-`;
-
-export const LeftContainer = styled.div`
-  position: absolute;
-  right: 5%;
-  left: 5%;
-  width: 90%;
-  height: 90%;
+  padding: 0 0 0 10%;
 `;
 
 export const Title = styled.div`
     font-size: 2.5rem;
     font-family: ${Fonts.CAVEAT};
-    margin: 2rem 0;
+    margin: 3rem 0 2rem 0;
 `;
 
 export const Description = styled.div`
@@ -36,12 +28,14 @@ export const Description = styled.div`
 `;
 
 export const Right = styled.div`
-flex: 2;
-display: flex;
-width: 100%;
-height: 20rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 0 10rem 0 0;
 `;
 
 export const Image = styled.img`
-  
+  height: 25rem;
 `;

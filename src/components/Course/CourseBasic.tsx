@@ -9,7 +9,7 @@ const CourseBasic = () => {
             <S.Right>
                 <S.Description>
                     <div>Basic Course</div>
-                    <span>Hello, my name is...</span>
+                    <span>ベーシックコースの説明</span>
                 </S.Description>
             </S.Right>
         </S.Container>

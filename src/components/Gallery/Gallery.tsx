@@ -12,6 +12,7 @@ const Gallery = () => {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 10000,
+    arrows: true,
     responsive: [
       {
         breakpoint: 1024, // 1024px以下の画面幅に対する設定
@@ -33,7 +34,6 @@ const Gallery = () => {
       },
     ],
   };
-
   return (
     <S.Container>
       <Slider {...settings}>

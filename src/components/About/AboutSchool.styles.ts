@@ -2,39 +2,34 @@ import styled from "styled-components";
 import { Colors, Fonts } from "../../global/Global.Styles";
 
 export const Container = styled.div`
-width: 100%;
-padding: 5rem 0 1.5rem 0;
-display: flex;
+  width: 100%;
+  height: 30rem;
+  background-color: ${Colors.SecondaryOpacity};
+  //background-color: rgba(202,130,142, 0.3);
+  margin: 6rem 0 0 0;
+  display: flex;
 `;
 
 export const Left = styled.div`
-flex: 2;
-display: flex;
-width: 100%;
-height: 20rem;
-`;
-
-export const Right = styled.div`
-  flex: 3;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
-  background-color: ${Colors.Primary};
+  width: 100%;
+  padding: 0 10rem 0
 `;
 
-export const RightContainer = styled.div`
-  position: absolute;
-  right: 5%;
-  left: 5%;
-  width: 90%;
-  height: 90%;
+export const Right = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20% 0 0;
 `;
 
 export const Title = styled.div`
     font-size: 2.5rem;
     font-family: ${Fonts.CAVEAT};
-    margin: 2rem 0;
+    margin: 3rem 0 2rem 0;
 `;
 
 export const Description = styled.div`
@@ -43,5 +38,5 @@ export const Description = styled.div`
 `;
 
 export const Image = styled.img`
-  
+  height: 25rem;
 `;

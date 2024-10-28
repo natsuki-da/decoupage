@@ -1,27 +1,12 @@
 import styled from "styled-components"
-import { Colors, Fonts } from "../../global/Global.Styles";
+import { Fonts } from "../../global/Global.Styles";
 
-export const Container = styled.div`
+export const Container = styled.div`  
   display: flex;
+  padding: 0 5%;
 `;
 
 export const Left = styled.div`
-  flex: 1;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;  
-`;
-
-export const Image = styled.img`
-  position: absolute;
-  right: 5%;
-  left: 5%;
-  width: 90%;
-`;
-
-export const Right = styled.div`
   flex: 1;
   height: 100vh;
   display: flex;
@@ -35,8 +20,7 @@ export const Description = styled.div`
   right: 5%;
   left: 5%;
   width: 90%;
-  height: 85%;
-// background-color: ${Colors.Primary};
+  height: 80%;
   div {
     font-size: 2.5rem;
     font-family: ${Fonts.CAVEAT};
@@ -46,4 +30,20 @@ export const Description = styled.div`
     font-size: 1rem;
     font-family: ${Fonts.NOTO_SANS_JP}; 
   }
+`;
+
+export const Right = styled.div`
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;  
+`;
+
+export const Image = styled.img`
+  position: absolute;
+  right: 5%;
+  left: 5%;
+  width: 90%;
 `;

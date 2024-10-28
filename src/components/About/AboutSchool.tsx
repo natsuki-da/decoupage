@@ -7,10 +7,8 @@ const AboutSchool = () => {
                 <S.Image src="../../images/welcome.jpeg" alt="welcome-plate" className="welcome" />
             </S.Left>
             <S.Right>
-                <S.RightContainer>
-                    <S.Title>About School</S.Title>
-                    <S.Description>Here is about school</S.Description>
-                </S.RightContainer>
+                <S.Title>About School</S.Title>
+                <S.Description>デコパージュサロンについて…</S.Description>
             </S.Right>
         </S.Container>
     )
