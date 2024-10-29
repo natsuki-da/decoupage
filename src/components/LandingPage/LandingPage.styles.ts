@@ -26,25 +26,6 @@ export const Container = styled.div`
     background-color: ${Colors.White};
   `;
 
-    /*
-    export const Background = styled.div`
-    position: relative;
-    top: 20%;
-    left: 7%;
-    background-color: ${Colors.Primary};
-    width: 70%;
-    height: 50%;
-  `;
-
-    export const Image = styled.img`
-    position: absolute;
-    top: 25%;
-    right: 5%;
-    width: 30%;
-    // border: 0.75rem solid ${Colors.Secondary};
-  `; 
-  */
-
   export const Background = styled.div`
     position: relative;
     top: 25%;
@@ -52,6 +33,9 @@ export const Container = styled.div`
     background-color: ${Colors.Primary};
     width: 60%;
     height: 45%;
+    .mobile {
+    background-color: ${Colors.Neutral};
+  }
   `;
 
   export const Image = styled.img`
@@ -59,5 +43,5 @@ export const Container = styled.div`
     top: 30%;
     right: 5%;
     width: 25%;
-    // border: 0.75rem solid ${Colors.Secondary};
+    }
   `;

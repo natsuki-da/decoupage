@@ -1,6 +1,5 @@
 import * as S from "./LandingPage.styles"
 
-
 const LandingPage = () => {
     return (
         <S.Container>

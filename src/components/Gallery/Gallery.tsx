@@ -15,19 +15,19 @@ const Gallery = () => {
     arrows: true,
     responsive: [
       {
-        breakpoint: 1024, // 1024px以下の画面幅に対する設定
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
         },
       },
       {
-        breakpoint: 600, // 600px以下の画面幅に対する設定
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 480, // 480px以下の画面幅に対する設定
+        breakpoint: 480,
         settings: {
           slidesToShow: 1,
         },

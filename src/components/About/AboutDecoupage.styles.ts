@@ -10,6 +10,10 @@ export const Container = styled.div`
 export const Image = styled.img`
   width: 100%;
   height: 50rem;
+  @media screen and (768px >= width){
+  width: 50%;
+  height: 50%;
+  }
 `;
 
 export const Block = styled.div`
