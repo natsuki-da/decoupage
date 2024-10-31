@@ -9,7 +9,6 @@ const AboutDecoupageMobile = () => {
              <S.Description>デコパージュとは...</S.Description>
          </S.Content>
         </S.Block>
-        <S.Image src="../../images/welcome02.JPG" alt="welcome-plate" className="welcome" />
     </S.Container>
     )
 }

@@ -5,12 +5,10 @@ export const Container = styled.div`
   width: 100%;
   height: 50rem;
   position: relative;
+  background-image: url("../../images/welcome02.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
   `;
-  
-export const Image = styled.img`
-  width: 100%;
-  height: 50rem;
-`;
 
 export const Block = styled.div`
   top: 0%;

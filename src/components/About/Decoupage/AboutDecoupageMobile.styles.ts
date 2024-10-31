@@ -2,8 +2,12 @@ import styled from "styled-components";
 import { Colors, Fonts } from "../../../global/Global.Styles";
 
 export const Container = styled.div`
-  width: 100%;
-  position: relative;
+ width: 100%;
+ height: 20rem;
+ position: relative;
+ background-image: url("../../images/welcome02.JPG"); 
+ background-size: cover;
+ background-repeat: no-repeat;
 `;
 
 export const Block = styled.div`
@@ -29,7 +33,3 @@ export const Title = styled.div`
     font-size: 0.5rem;
     padding: 1rem;
   `;
-
-  export const Image = styled.img`
-    width: 100%;
-`;
