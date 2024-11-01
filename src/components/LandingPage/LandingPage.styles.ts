@@ -17,7 +17,7 @@ export const Container = styled.div`
   export const Title = styled.div`
     font-size: 4rem;
     font-family: ${Fonts.CAVEAT};
-    color: ${Colors.Secondary};
+    color: ${Colors.Tertiary};
     overflow: hidden;
   `;
   
@@ -26,22 +26,11 @@ export const Container = styled.div`
     background-color: ${Colors.White};
   `;
 
-  export const Background = styled.div`
-    position: relative;
-    top: 25%;
-    left: 20%;
-    background-color: ${Colors.Primary};
-    width: 60%;
-    height: 45%;
-    .mobile {
-    background-color: ${Colors.Neutral};
-  }
-  `;
-
   export const Image = styled.img`
     position: absolute;
     top: 30%;
     right: 5%;
     width: 25%;
+    box-shadow: -3rem -3rem 0px 0 ${Colors.Primary};
     }
   `;

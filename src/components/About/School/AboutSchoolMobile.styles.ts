@@ -6,6 +6,7 @@ export const Container = styled.div`
     background-color: ${Colors.SecondaryOpacity};
     margin: 1rem 0;
     display: flex;
+    margin: 3rem 0 0 0;
 `;
 
 export const Left = styled.div`

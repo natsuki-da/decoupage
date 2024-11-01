@@ -4,7 +4,7 @@ import { Colors, Fonts } from "../../../global/Global.Styles";
 export const Container = styled.div`
 width: 100%;
 background-color: ${Colors.SecondaryOpacity};
-// margin: 6rem 0;
+margin: 3rem 0 0 0;
 display: flex;
 `;
 

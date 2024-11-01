@@ -7,8 +7,7 @@ const LandingPage = () => {
                 <S.Title>Atelier Rin</S.Title>
             </S.Left>
             <S.Right>
-                <S.Background />
-                <S.Image src="../../images/main.JPG" alt="main picture" className="main" />
+                <S.Image src="../../images/r-pink01.jpeg" alt="main picture" />
             </S.Right>
         </S.Container>
 
