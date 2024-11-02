@@ -5,7 +5,6 @@ export const Container = styled.div`
   width: 100%;
   height: 30rem;
   background-color: ${Colors.SecondaryOpacity};
-  //background-color: rgba(202,130,142, 0.3);
   margin: 6rem 0 0 0;
   display: flex;
 `;
@@ -15,8 +14,17 @@ export const Left = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  @media screen and (1024px > width){
+  padding: 0 2rem 0 2rem;
+  }
+`;
+
+export const Image = styled.img`
+  height: 24rem;
+  @media screen and (1024px > width){
   width: 100%;
-  padding: 0 10rem 0
+  }
 `;
 
 export const Right = styled.div`
@@ -29,14 +37,13 @@ export const Right = styled.div`
 export const Title = styled.div`
     font-size: 2.5rem;
     font-family: ${Fonts.CAVEAT};
-    margin: 3rem 0 2rem 0;
+    margin: 2.5rem 0 1.5rem 0;
 `;
 
 export const Description = styled.div`
     font-size: 1rem;
     font-family: ${Fonts.NOTO_SANS_JP};
-`;
-
-export const Image = styled.img`
-  height: 25rem;
+    overflow-y: auto;
+    height: 25rem;
+    margin: 0 0 2rem 0;
 `;

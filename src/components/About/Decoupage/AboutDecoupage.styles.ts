@@ -8,6 +8,9 @@ export const Container = styled.div`
   background-image: url("../../images/welcome02.JPG");
   background-repeat: no-repeat;
   background-size: cover;
+  @media screen and (1024px > width){
+  height: 40rem;
+  }
   `;
 
 export const Block = styled.div`
@@ -18,6 +21,9 @@ export const Block = styled.div`
   opacity: 70%;
   background-color: ${Colors.Primary};
   position: absolute;
+  @media screen and (1024px > width){
+  width: 65%;
+  }
 `;
 
 export const Content = styled.div`

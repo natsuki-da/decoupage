@@ -8,6 +8,10 @@ export const Container = styled.div`
   background-color: ${Colors.SecondaryOpacity};
   display: flex;
   position: relative;
+  @media screen and (1024px > width){
+  width: 70%;
+  height: 25rem;
+  } 
 `;
 
 export const Content = styled.div`
