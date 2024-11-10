@@ -31,7 +31,7 @@ export const Content = styled.div`
 `;
 
 export const Title = styled.div`
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: ${Fonts.CAVEAT};
   `;
 

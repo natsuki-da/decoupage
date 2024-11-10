@@ -32,5 +32,4 @@ export const Container = styled.div`
     right: 5%;
     width: 25%;
     box-shadow: -3rem -3rem 0px 0 ${Colors.Primary};
-    }
   `;

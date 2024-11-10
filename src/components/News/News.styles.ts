@@ -15,7 +15,6 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  //background-color: ${Colors.White};
   position: absolute;
   height: 70%;
   width: 70%;
