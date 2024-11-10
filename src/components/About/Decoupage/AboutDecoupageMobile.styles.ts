@@ -24,12 +24,12 @@ export const Content = styled.div`
 `;
 
 export const Title = styled.div`
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: ${Fonts.CAVEAT};
   `;
 
   export const Description = styled.div`
     font-family: ${Fonts.NOTO_SANS_JP};
-    font-size: 0.5rem;
+    font-size: 1rem;
     padding: 1rem;
   `;

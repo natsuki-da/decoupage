@@ -30,12 +30,12 @@ export const Right = styled.div`
 `;
 
 export const Title = styled.div`
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: ${Fonts.CAVEAT};
     margin: 0 0 1rem 0;
 `;
 
 export const Description = styled.div`
-    font-size: 0.5rem;
+    font-size: 1rem;
     font-family: ${Fonts.NOTO_SANS_JP};
 `;

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Fonts } from "../../global/Global.Styles";
+import { Fonts, Colors } from "../../global/Global.Styles";
 
 export const Container = styled.div`
   display: flex;
@@ -30,6 +30,7 @@ export const Right = styled.div`
   flex-direction: column;
   justify-content: center;
   position: relative;  
+  // background-color: ${Colors.Primary};
 `;
 
 export const Description = styled.div`
