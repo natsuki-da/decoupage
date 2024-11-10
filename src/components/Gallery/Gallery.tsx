@@ -2,6 +2,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import * as S from "./Gallery.styles"
+import products from "./data.json"
 
 const Gallery = () => {
   const settings = {
@@ -37,57 +38,17 @@ const Gallery = () => {
   return (
     <S.Container>
       <Slider {...settings}>
-        <div>
-          <S.Image src="../images/clock02.jpeg" alt="wall clock" />
-        </div>
-        <div>
-          <S.Image src="../images/mobile02.jpeg" alt="phone case" />
-        </div>
-        <div>
-          <S.Image src="../images/plate-bl02.jpeg" alt="plate blue" />
-        </div>
-        <div>
-          <S.Image src="../images/plate-wood02.jpeg" alt="plate wood" />
-        </div>
-        <div>
-          <S.Image src="../images/r-gold02.JPG" alt="R-object gold" />
-        </div>
-        <div>
-          <S.Image src="../images/soap-pk.jpeg" alt="soap pink" />
-        </div>
-        <div>
-          <S.Image src="../images/shoes-pk02.jpeg" alt="shoes pink" />
-        </div>
-        <div>
-          <S.Image src="../images/soap-br.jpeg" alt="soap brown" />
-        </div>
-        <div>
-          <S.Image src="../images/mobile04.jpeg" alt="phone case" />
-        </div>
-        <div>
-          <S.Image src="../images/plate-gd02.jpeg" alt="plate gold" />
-        </div>
-        <div>
-          <S.Image src="../images/soap-gr.jpeg" alt="soap green" />
-        </div>
-        <div>
-          <S.Image src="../images/plate-gr01.jpeg" alt="plate green" />
-        </div>
-        <div>
-          <S.Image src="../images/plate-rose01.jpeg" alt="plate rose" />
-        </div>
-        <div>
-          <S.Image src="../images/r-pink01.jpeg" alt="R-object pink" />
-        </div>
-        <div>
-          <S.Image src="../images/soap-moomin.jpeg" alt="soap moomin" />
-        </div>
-        <div>
-          <S.Image src="../images/tote-bl01.jpeg" alt="tote bag blue" />
-        </div>
-        <div>
-          <S.Image src="../images/plate-rose02.jpeg" alt="plate rose 02" />
-        </div>
+        {
+          products.map((product, index)=>{
+            return (
+              <div key={index}>
+                <a href={product.href}>
+                <S.Image src={product.image} alt={product.title} />
+                </a>
+              </div>
+            )
+          })
+        }
       </Slider>
     </S.Container>
   );
