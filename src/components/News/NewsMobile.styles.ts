@@ -16,15 +16,28 @@ export const Content = styled.div`
   width: 80%;
   left: 10%;
   top: 7%;
+  overflow-y: auto;
 `;
 
 export const Title = styled.div`
   font-size: 1.5rem;
   font-family: ${Fonts.CAVEAT};
+  line-height: 5rem;
   `;
 
   export const Description = styled.div`
   font-family: ${Fonts.NOTO_SANS_JP};
   font-size: 1rem;
-  padding: 1.5rem 0.5rem;
+  padding: 0 1rem;
+  `;
+
+  export const Blog = styled.div`
+   padding: 3rem 0 0 0;
+  `;
+
+  export const BlogTitle = styled.div`
+  font-family: ${Fonts.NOTO_SANS_JP};
+  font-size: 1rem;
+  line-height: 2rem;
+  padding: 0 1rem;
   `;
