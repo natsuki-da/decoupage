@@ -16,11 +16,6 @@
 
     },
     {
-        "image": "images/soap-pk.jpeg",
-        "title": "soap pink",
-        "href": "#"
-    },
-    {
         "image": "images/shoes-pk02.jpeg",
         "title": "shoes pink",
         "href": "https://www.instagram.com/p/CZ1iV-5pFZ8/?img_index=1"
@@ -46,11 +41,6 @@
         "href": "https://www.instagram.com/p/CphVz4cPgWS/?img_index=1"
     },
     {
-        "image": "images/soap-gr.jpeg",
-        "title": "soap green",
-        "href": "#"
-    },
-    {
         "image": "images/placemat-bl01.jpeg",
         "title": "tea placemat blue 01",
         "href": "https://www.instagram.com/p/Cl_RRnpP_1E/?img_index=1"
@@ -74,11 +64,6 @@
         "image": "images/r-pink01.jpeg",
         "title": "R-object pink",
         "href": "https://www.instagram.com/p/Cg3bpusJFdQ/?img_index=1"
-    },
-    {
-        "image": "images/soap-moomin.jpeg",
-        "title": "soap moomin",
-        "href": "#"
     },
     {
         "image": "images/tote-bl01.jpeg",
@@ -114,5 +99,19 @@
         "image": "images/christmas.JPG",
         "title": "christmas",
         "href": "https://www.instagram.com/p/DA-bxp4vtCF/?img_index=1"
+    },{
+        "image": "images/plate-wood02.jpeg",
+        "title": "wooden plate",
+        "href": "https://www.instagram.com/p/CrkycI_vR8p/?img_index=1"
+    },
+    {
+        "image": "images/plate-cl01.JPG",
+        "title": "london plate",
+        "href": "https://www.instagram.com/p/DCTRkUPvqBG/?img_index=1"
+    },
+    {
+        "image": "images/tissue-box.JPG",
+        "title": "tissue box",
+        "href": "https://www.instagram.com/p/DCGkBCUvrqV/?img_index=1"
     }
 ]

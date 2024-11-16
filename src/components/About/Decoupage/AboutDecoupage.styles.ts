@@ -18,7 +18,6 @@ export const Block = styled.div`
   right: 5%;
   width: 40%;
   height:  100%;
-  //opacity: 70%;
   background-color: ${Colors.SecondaryOpacity};
   position: absolute;
   @media screen and (1024px > width){

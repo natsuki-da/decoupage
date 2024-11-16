@@ -20,7 +20,7 @@ const AboutMeMobile = () => {
                 </S.Description>
             </S.Left>
             <S.Right>
-                <S.Image src="../../images/soap-pk.jpeg" alt="welcome-plate" className="welcome" />
+                <S.Image src="../../images/welcome.jpeg" alt="welcome-plate" className="welcome" />
             </S.Right>
         </S.Container>
     )

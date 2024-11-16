@@ -17,7 +17,7 @@ export const Container = styled.div`
   export const Title = styled.div`
     font-size: 4rem;
     font-family: ${Fonts.CAVEAT};
-    color: ${Colors.Tertiary};
+    color: ${Colors.PrimaryLight};
     overflow: hidden;
   `;
   

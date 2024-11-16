@@ -16,7 +16,7 @@ export const Block = styled.div`
   width:  90%;
   height: 100%;
   opacity: 70%;
-  background-color: ${Colors.Primary};
+  background-color: ${Colors.SecondaryOpacity};
 `;
 
 export const Content = styled.div`
