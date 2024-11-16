@@ -3,9 +3,12 @@ import { Colors } from "../../global/Global.Styles";
 
 export const Container = styled.div`  
 padding: 0 5%;
+background-color: ${Colors.TertiaryOpacity};
+margin: 6rem 0;
+
   .slick-prev:before,
   .slick-next:before {
-    color: ${Colors.Primary};
+    color: ${Colors.Secondary};
     font-size: 3rem;
     opacity: 1;
   }
@@ -19,7 +22,7 @@ padding: 0 5%;
   }
   .slick-prev:hover:before,
   .slick-next:hover:before {
-     color: ${Colors.Tertiary};
+     color: ${Colors.White};
   }
   
 `;
