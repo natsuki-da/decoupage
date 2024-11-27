@@ -34,7 +34,8 @@ const Home = () => {
       <>
       <LandingPageMobile />
       <NewsMobile />
-      <GalleryMobile />
+      {/* <GalleryMobile /> */}
+      <Gallery />
       <AboutDecoupageMobile />
       <AboutMeMobile />
       <AboutSchoolMobile />

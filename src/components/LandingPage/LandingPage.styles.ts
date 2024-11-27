@@ -31,5 +31,5 @@ export const Container = styled.div`
     top: 30%;
     right: 5%;
     width: 25%;
-    box-shadow: -3rem -3rem 0px 0 ${Colors.Primary};
+    box-shadow: -3rem -3rem 0px 0 ${Colors.PrimaryLight};
   `;

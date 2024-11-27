@@ -1,13 +1,10 @@
 import styled from "styled-components"
-import { Fonts, Colors } from "../../global/Global.Styles";
+import { Fonts } from "../../global/Global.Styles";
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  margin: 3rem 0 0 0;
-  height: 40rem;
-  //background-color: ${Colors.Primary};
+  width: 100%;
 `;
 
 export const Up = styled.div`
@@ -20,23 +17,38 @@ export const Up = styled.div`
 `;
 
 export const Middle = styled.div`
-height: 20rem;
+  height: 15rem;
+  overflow-y: auto;
 `;
 
 export const Description = styled.div`
   padding: 0 1rem;
-  span{
+`;
+
+export const Lesson = styled.div`
+  font-size: 1rem;
+  font-family: ${Fonts.NOTO_SANS_JP};
+  .lesson {
     font-size: 1rem;
-    font-family: ${Fonts.NOTO_SANS_JP}; 
+    line-height: 2rem;
   }
+  .asterisk {
+  padding: 1rem 0 0 0;
+  line-height: 2rem;
+  }
+`;
+
+export const Subtitle = styled.div`
+  padding: 1.25rem 0;
 `;
 
 export const Down = styled.div`
   display: flex;
   justify-content: center;
-  height: 15rem;
+  height: 25rem;
+  padding: 1.5rem 0;
 `;
 
 export const Image = styled.img`
-  width: 50%;
+  height: 25rem;
 `;

@@ -4,10 +4,7 @@ import { Fonts, Colors } from "../../global/Global.Styles";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  margin: 3rem 0 0 0;
-  height: 40rem;
-  //background-color: ${Colors.Primary};
+  width: 100%;
 `;
 
 export const Up = styled.div`
@@ -21,6 +18,7 @@ export const Up = styled.div`
 
 export const Middle = styled.div`
 height: 20rem;
+overflow-y: auto;
 `;
 
 export const Description = styled.div`
@@ -31,31 +29,35 @@ export const Description = styled.div`
   }
 `;
 
+export const Lesson = styled.div`
+  font-size: 1rem;
+  font-family: ${Fonts.NOTO_SANS_JP};
+  .lesson {
+    font-size: 1rem;
+    font-family: ${Fonts.NOTO_SANS_JP};
+    line-height: 2rem;
+  }
+  .asterisk {
+  padding: 1rem 0 0 0;
+  line-height: 2rem;
+  }
+  ul{
+  background-color: ${Colors.TertiaryOpacity};
+  margin-top: 2rem;
+  }
+`;
+
+export const Subtitle = styled.div`
+  padding: 1.25rem 0;
+`;
+
 export const Down = styled.div`
   display: flex;
   justify-content: center;
-  height: 15rem;
+  height: 20rem;
+  padding: 1.5rem 0;
 `;
 
 export const Image = styled.img`
-  width: 50%;
+  height: 20rem;
 `;
-
-// export const Left = styled.div`
-//   flex: 1;
-//   //height: 100vh;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   position: relative;
-// `;
-
-// export const Right = styled.div`
-//   flex: 1;
-//   //height: 100vh;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   position: relative;  
-//   background-color: ${Colors.Primary};
-// `;

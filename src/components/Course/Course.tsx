@@ -1,14 +1,19 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import CourseBasic from './CourseBasic';
-import CourseAdvanced from './CourseAdvanced';
 import * as S from "./Course.styles"
 import { useMediaQuery } from 'react-responsive';
+import { useRef } from 'react';
+import CourseBasic from './CourseBasic';
+import StepUpLesson from './StepUpLesson';
 import CourseBasicMobile from './CourseBasicMobile';
-import CourseAdvancedMobile from './CourseAdvancedMobile';
+import StepUpLessonMobile from './StepUpLessonMobile';
 
 const Course = () => {
+    const sliderRef = useRef<Slider | null>(null);
+    const next = () => { sliderRef.current?.slickNext(); };
+    const prev = () => { sliderRef.current?.slickPrev(); };
+
     const settings = {
         dots: true,
         speed: 500,
@@ -16,27 +21,48 @@ const Course = () => {
         slidesToScroll: 1,
         infinite: true,
         autoplay: false,
-        arrows: true,
+        arrows: false,
     };
-    const isDesktop : boolean = useMediaQuery({query: `(min-width: 768px)`})
+
+    const isDesktop: boolean = useMediaQuery({ query: `(min-width: 768px)` })
     return (
         <>
-        {isDesktop && 
-        <S.Container>
-            <Slider {...settings}>
-                <CourseBasic />
-                <CourseAdvanced />
-            </Slider>
-        </S.Container>}
-        {!isDesktop && 
-        <S.Container>
-            <Slider {...settings}>
-                <CourseBasicMobile />
-                <CourseAdvancedMobile />
-            </Slider>
-        </S.Container>}
+            <S.Container>
+                <S.BtnContainer>
+                    <S.Btn><button onClick={prev}><img src="/icons/arrow-L.svg" /></button></S.Btn>
+                </S.BtnContainer>
+                {isDesktop &&
+                    <S.SlidesContainer>
+                        <Slider ref={sliderRef} {...settings}>
+                            <CourseBasic />
+                            <StepUpLesson />
+                        </Slider>
+                    </S.SlidesContainer>
+                }
+                {!isDesktop &&
+                    <S.SlidesContainer>
+                        <Slider ref={sliderRef} {...settings}>
+                            <CourseBasicMobile />
+                            <StepUpLessonMobile />
+                        </Slider>
+                    </S.SlidesContainer>
+                }
+                <S.BtnContainer>
+                    <S.Btn><button onClick={next}><img src="/icons/arrow-R.svg" /></button></S.Btn>
+                </S.BtnContainer>
+            </S.Container>
         </>
     )
 }
 
 export default Course;
+
+
+{/* <div style={{ textAlign: "center" }}>
+                <button className="button" onClick={prev}>
+                  Previous
+                </button>
+                <button className="button" onClick={next}>
+                  Next
+                </button>
+              </div> */}

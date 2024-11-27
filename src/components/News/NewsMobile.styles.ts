@@ -33,6 +33,14 @@ export const Title = styled.div`
 
   export const Blog = styled.div`
    padding: 3rem 0 0 0;
+   a {
+   text-decoration: none;
+   color: #000000;
+   }
+   a:hover {
+   color: ${Colors.Primary};
+   font-weight: 900;
+   }
   `;
 
   export const BlogTitle = styled.div`

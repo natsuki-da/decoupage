@@ -14,6 +14,10 @@ export const Left = styled.div`
   display: flex;
   flex-direction: column;
   padding: 0 1rem 0 10%;
+  @media screen and (1024px > width){
+  min-width: 40%; 
+  padding: 0 1rem 0 10%;
+  }
 `;
 
 export const Title = styled.div`
@@ -37,12 +41,12 @@ export const Right = styled.div`
   align-items: center;
   justify-content: center;
   @media screen and (1024px > width){
-  padding: 0 2rem 0 0;}
+  margin: 0 5rem 0 0;}
 `; 
 
 export const Image = styled.img`
 height: 24rem;
 @media screen and (1024px > width){
-width: 100%;
+height: 50%;
 }
 `;

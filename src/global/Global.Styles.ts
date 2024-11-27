@@ -23,6 +23,7 @@ export const Colors = {
   NeutralVariant: "#909189",
   White: "#FFFFFF",
   Error: "#FF5449",
+  Transparent: "rgba(0,0,0,0.1)"
 };
 
 export enum Fonts {
