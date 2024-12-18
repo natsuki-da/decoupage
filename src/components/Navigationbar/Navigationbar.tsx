@@ -1,8 +1,4 @@
-// import { Link } from "react-router-dom";
-// import { Nav, Paths } from "../../types/enums";
 import * as S from "./Navigationbar.styles"
-import DropdownMenu from "./DropdownMenu";
-
 
 const Navigationbar = () => {
     return (
@@ -12,7 +8,6 @@ const Navigationbar = () => {
                 {/* <S.Button onClick={handleDropdownMenu}> */}
                     <S.Image src="../icons/flower-icon01.svg" />
                 </S.Button>
-                <DropdownMenu/>
             </S.Header>
         </S.Main>
     )

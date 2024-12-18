@@ -9,7 +9,6 @@ import News from "../News/News";
 import { useMediaQuery } from "react-responsive";
 import LandingPageMobile from "../LandingPage/LandingPageMobile";
 import NewsMobile from "../News/NewsMobile";
-import GalleryMobile from "../Gallery/GalleryMobile";
 import AboutDecoupageMobile from "../About/Decoupage/AboutDecoupageMobile";
 import AboutMeMobile from "../About/Me/AboutMeMobile";
 import AboutSchoolMobile from "../About/School/AboutSchoolMobile";
@@ -34,7 +33,6 @@ const Home = () => {
       <>
       <LandingPageMobile />
       <NewsMobile />
-      {/* <GalleryMobile /> */}
       <Gallery />
       <AboutDecoupageMobile />
       <AboutMeMobile />
