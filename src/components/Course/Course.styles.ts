@@ -4,20 +4,20 @@ import { Colors } from "../../global/Global.Styles";
 export const Container = styled.div`  
 width: 100%;
 height: 100vh;
-background-color: ${Colors.TertiaryOpacity};
 margin: 6rem 0;
 display: flex;
 justify-content: center;
+background-color: ${Colors.Tertiary};
 `;
 
 export const SlidesContainer = styled.div`
   width: 80%;
+  height: 100%;
 `;
 
 export const BtnContainer = styled.div`
   width: 10%;
   height: 100%;
-  // height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;

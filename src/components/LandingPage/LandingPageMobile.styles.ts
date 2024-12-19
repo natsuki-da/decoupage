@@ -2,12 +2,12 @@ import styled from "styled-components";
 import { Colors, Fonts } from "../../global/Global.Styles";
 
 export const Container = styled.div`
-  height: 40rem;
+  height: 30rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: 3rem 0;
+  margin: 5rem 0 1rem 0;
 `;
 
   export const Image = styled.img`
