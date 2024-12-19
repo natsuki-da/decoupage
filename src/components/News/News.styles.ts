@@ -5,22 +5,24 @@ export const Container = styled.div`
   width: 50%;
   height: 40rem;
   margin: 6rem auto;
-  background-color: ${Colors.SecondaryOpacity};
   display: flex;
   position: relative;
   @media screen and (1024px > width){
-  width: 70%;
-  height: 25rem;
+    height: 25rem;
   } 
 `;
 
 export const Content = styled.div`
   position: absolute;
-  height: 70%;
-  width: 70%;
+  height: 100;
+  width: 100%;
   left: 15%;
   top: 15%;
   overflow-y: auto;
+  @media screen and (1024px > width){
+  left: 0;
+  top: 0;
+  } 
 `;
 
 export const Title = styled.div`
@@ -42,7 +44,8 @@ export const Title = styled.div`
    color: #000000;
    }
    a:hover {
-   color: ${Colors.Primary};
+   color: #000000;
+  //  color: ${Colors.Primary};
    font-weight: 900;
    }
   `;

@@ -13,11 +13,11 @@ export const Container = styled.div`
   export const Image = styled.img`
     width: 60%;
     left: 25%;
-    box-shadow: -3rem -3rem 0px 0 ${Colors.Primary};
+    box-shadow: -2rem -2rem 0px 0 ${Colors.PrimaryLight};
   `;
 
   export const Title = styled.div`
     font-size: 3rem;
     font-family: ${Fonts.CAVEAT};
-    color: ${Colors.PrimaryLight};
+    color: ${Colors.Primary};
   `;

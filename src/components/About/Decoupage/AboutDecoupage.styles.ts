@@ -4,6 +4,7 @@ import { Colors, Fonts } from "../../../global/Global.Styles";
 export const Container = styled.div`
   width: 100%;
   height: 50rem;
+  margin: 6rem 0 0 0;
   position: relative;
   background-image: url("../../images/welcome02.JPG");
   background-repeat: no-repeat;
