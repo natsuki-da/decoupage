@@ -4,7 +4,7 @@ import { Colors, Fonts } from "../../global/Global.Styles";
 export const Container = styled.div`
   width: 50%;
   height: 40rem;
-  margin: 6rem auto;
+  margin: 2rem auto;
   display: flex;
   position: relative;
   @media screen and (1024px > width){

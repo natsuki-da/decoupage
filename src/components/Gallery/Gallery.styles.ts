@@ -33,7 +33,6 @@ export const BtnContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: ${Colors.Neutral};
   @media screen and (768px > width){
     height: 15rem;
   } 
