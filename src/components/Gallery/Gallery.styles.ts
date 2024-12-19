@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 
 export const SlidesContainer = styled.div`
-  width: 80%;
+  width: 70%;
   display: flex:
   align-items: center;
 `;
@@ -28,13 +28,15 @@ export const Image = styled.img`
 `;
 
 export const BtnContainer = styled.div`
-  width: 10%;
+  width: 15%;
   height: 20rem;
   display: flex;
   align-items: center;
-  @media and screen (768px > width){
+  justify-content: center;
+  background-color: ${Colors.Neutral};
+  @media screen and (768px > width){
     height: 15rem;
-  }
+  } 
 `;
 
 export const Btn = styled.div`
