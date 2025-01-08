@@ -3,6 +3,7 @@ import { Colors, Fonts } from "../../../global/Global.Styles";
 
 export const Container = styled.div`
     width: 100%;
+    // height: 15rem;
     background-color: ${Colors.SecondaryOpacity};
     margin: 1rem 0;
     display: flex;

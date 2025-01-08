@@ -5,7 +5,9 @@ export const Container = styled.div`
   width: 80%;
   height: 20rem;
   margin: 4rem auto;
-  //margin: 6rem auto;
+  @media screen and (768px > width){
+   margin: 3rem auto;
+  }
   background-color: ${Colors.SecondaryOpacity};
   display: flex;
   position: relative;

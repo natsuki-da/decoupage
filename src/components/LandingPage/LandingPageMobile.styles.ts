@@ -17,7 +17,7 @@ export const Container = styled.div`
   `;
 
   export const Title = styled.div`
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: ${Fonts.CAVEAT};
     color: ${Colors.Primary};
   `;

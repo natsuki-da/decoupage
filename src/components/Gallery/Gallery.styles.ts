@@ -3,10 +3,10 @@ import { Colors } from "../../global/Global.Styles";
 
 export const Container = styled.div`
   width: 100%;
-  height: 20rem;
-  padding: 4rem 0 0 0;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  @media screen and (768px > width){
+  margin: 2rem 0;}
 `;
 
 export const SlidesContainer = styled.div`
