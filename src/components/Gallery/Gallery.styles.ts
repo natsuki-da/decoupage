@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   @media screen and (768px > width){
-  margin: 2rem 0;}
+  margin: 5rem 0 0 0;}
 `;
 
 export const SlidesContainer = styled.div`

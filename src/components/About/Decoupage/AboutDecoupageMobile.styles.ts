@@ -8,7 +8,7 @@ export const Container = styled.div`
  background-image: url("../../images/welcome02.JPG"); 
  background-size: cover;
  background-repeat: no-repeat;
- margin: 3rem 0 0 0;
+ margin: 4rem 0 0 0;
 `;
 
 export const Block = styled.div`
