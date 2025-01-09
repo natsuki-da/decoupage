@@ -16,26 +16,28 @@ export const Container = styled.div`
 export const Content = styled.div`
   position: absolute;
   height: 80%;
-  width: 80%;
+  width: 90%;
   left: 10%;
   top: 7%;
-  overflow-y: auto;
+  //overflow-y: auto;
 `;
 
 export const Title = styled.div`
-  font-size: 1.5rem;
-  font-family: ${Fonts.CAVEAT};
-  line-height: 5rem;
+  // font-size: 1.5rem;
+  font-size: 1.25rem;
+  font-family: ${Fonts.SACRAMENTO};
+  line-height: 3.5rem;
   `;
 
   export const Description = styled.div`
-  font-family: ${Fonts.NOTO_SANS_JP};
-  font-size: 1rem;
+  font-family: ${Fonts.SHIPPORI_MINCHO};
+  // font-size: 1rem;
+  font-size: 0.9rem;
   padding: 0 1rem;
   `;
 
   export const Blog = styled.div`
-   padding: 3rem 0 0 0;
+   padding: 2rem 0 0 0;
    a {
    text-decoration: none;
    color: #000000;
@@ -47,8 +49,8 @@ export const Title = styled.div`
   `;
 
   export const BlogTitle = styled.div`
-  font-family: ${Fonts.NOTO_SANS_JP};
-  font-size: 1rem;
+  font-family: ${Fonts.SHIPPORI_MINCHO};
+  font-size: 0.9rem;
   line-height: 2rem;
   padding: 0 1rem;
   `;

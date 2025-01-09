@@ -17,7 +17,7 @@ export const Block = styled.div`
   width:  90%;
   height: 100%;
   opacity: 70%;
-  background-color: ${Colors.SecondaryOpacity};
+  background-color: ${Colors.Secondary};
 `;
 
 export const Content = styled.div`
@@ -26,11 +26,12 @@ export const Content = styled.div`
 
 export const Title = styled.div`
   font-size: 1.5rem;
-  font-family: ${Fonts.CAVEAT};
+  font-family: ${Fonts.SACRAMENTO};
   `;
 
   export const Description = styled.div`
-    font-family: ${Fonts.NOTO_SANS_JP};
-    font-size: 1rem;
+    font-family: ${Fonts.SHIPPORI_MINCHO};
+    // font-size: 1rem;
+    font-size: 0.9rem;
     padding: 1rem;
   `;

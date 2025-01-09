@@ -18,6 +18,8 @@ export const Container = styled.div`
 
   export const Title = styled.div`
     font-size: 2rem;
-    font-family: ${Fonts.CAVEAT};
+    // font-family: ${Fonts.CAVEAT};
+    font-family: ${Fonts.Tangerine};
     color: ${Colors.Primary};
+    font-weight: 700;
   `;

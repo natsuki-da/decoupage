@@ -34,8 +34,8 @@ export const BtnContainer = styled.div`
   align-items: center;
   justify-content: center;
   @media screen and (768px > width){
-    height: 15rem;
-  } 
+   height: 15rem;
+   } 
 `;
 
 export const Btn = styled.div`
@@ -46,12 +46,20 @@ export const Btn = styled.div`
   height: 3rem;
   border-radius: 50%;
   background-color: ${Colors.Primary};
+  @media screen and (768px > width){
+    width: 2.25rem;
+    height: 2.25rem;
+    }
   }
   img: hover{
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
   background-color: ${Colors.Tertiary};
+   @media screen and (768px > width){
+    width: 2.25rem;
+    height: 2.25rem;
+    }
   }
   button {
   border: none;
