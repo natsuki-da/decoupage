@@ -30,6 +30,12 @@ export enum Fonts {
   CAVEAT = "'Caveat', cursive",
   ROBOTO = "'Roboto', sans-serif",
   NOTO_SANS_JP = "'Noto Sans JP', sans-serif;",
+  
+  Tangerine = "'Tangerine', serif",
+  SACRAMENTO = "'Sacramento', serif;",
+  SHIPPORI_MINCHO = "'Shippori Mincho', serif"
+
+
 }
 
 // MIDORI
