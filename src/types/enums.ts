@@ -1,15 +1,9 @@
 export enum Paths {
     HOME = "/",
-    ABOUT = "/about",
-    COURSE = "/courses",
-    GALLERY = "/gallery",
-    CONTACT = "/contact"
+    ABOUT_ATELIER = "/about_atelier",
 }
 
 export enum Nav {
     HOME = "Home",
-    ABOUT = "About",
-    COURSE = "Courses",
-    GALLERY = "Gallery",
-    CONTACT = "Contact"
+    ABOUT_ATELIER = "About_Atelier",
   }  
