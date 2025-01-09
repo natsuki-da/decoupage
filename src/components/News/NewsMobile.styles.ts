@@ -19,7 +19,7 @@ export const Content = styled.div`
   width: 90%;
   left: 10%;
   top: 7%;
-  //overflow-y: auto;
+  overflow-y: hidden;
 `;
 
 export const Title = styled.div`
