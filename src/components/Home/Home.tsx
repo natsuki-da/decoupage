@@ -9,7 +9,7 @@ import News from "../News/News";
 import { useMediaQuery } from "react-responsive";
 import LandingPageMobile from "../LandingPage/LandingPageMobile";
 import NewsMobile from "../News/NewsMobile";
-import AboutDecoupageMobile from "../About/Decoupage/AboutDecoupageMobile";
+// import AboutDecoupageMobile from "../About/Decoupage/AboutDecoupageMobile";
 import * as S from "./Home.styles"
 import About from "../Mobile/About";
 const Home = () => {
