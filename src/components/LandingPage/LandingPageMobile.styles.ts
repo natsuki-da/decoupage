@@ -34,7 +34,7 @@ export const Container = styled.div`
   export const Subtitle = styled.div`
     font-size: 1.25rem;
     font-family: ${Fonts.SACRAMENTO};
-    color: ${Colors.Letter}
+    color: ${Colors.Primary};
   `;
 
   export const Description = styled.div`

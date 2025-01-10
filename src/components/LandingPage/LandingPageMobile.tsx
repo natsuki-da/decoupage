@@ -12,9 +12,6 @@ const LandingPageMobile = () => {
                 Atelier Rinへようこそ。<br />
                 奈良市にあるデコパージュ教室です。<br />
                 デコパージュをとおして、暮らしに彩りを。<br />
-                {/* <div>Atelier Rinへようこそ<br /></div>
-                <div>奈良市にあるデコパージュ教室です<br /></div>
-                <div>デコパージュをとおして、暮らしに彩りを<br /></div> */}
             </S.Description>
         </S.Container>
     )
