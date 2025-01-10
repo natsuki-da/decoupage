@@ -22,6 +22,7 @@ const NewsMobile = () => {
                     })}
                 </S.Blog>
             </S.Content>
+            <S.Button>Read More</S.Button>
         </S.Container>
     )
 }
