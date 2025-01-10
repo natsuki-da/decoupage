@@ -34,7 +34,7 @@ const Home = () => {
             <LandingPageMobile />
             <NewsMobile />
             <About />
-            <AboutDecoupageMobile />
+            {/* <AboutDecoupageMobile /> */}
             <Gallery />
             <Footer />
           </S.Content>
