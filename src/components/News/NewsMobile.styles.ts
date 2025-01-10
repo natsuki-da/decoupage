@@ -40,10 +40,9 @@ export const Title = styled.div`
    padding: 2rem 0 0 0;
    a {
    text-decoration: none;
-   color: #000000;
    }
    a:hover {
-   color: ${Colors.Primary};
+   color: ${Colors.Letter};
    font-weight: 900;
    }
   `;
