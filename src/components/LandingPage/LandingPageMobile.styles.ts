@@ -39,6 +39,7 @@ export const Container = styled.div`
   export const Description = styled.div`
     font-size: 1rem;
     font-family: ${Fonts.SHIPPORI_MINCHO};
-    text-align: center;
+    //text-align: center;
     padding: 2rem 0 0 0;
+    width: 80%;
   `;
