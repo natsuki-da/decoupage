@@ -22,7 +22,8 @@ export const Colors = {
   Neutral: "#91918D",
   NeutralVariant: "#909189",
   White: "#FFFFFF",
-  Letter: "#4c2e30",
+  // Letter: "#4c2e30",
+  Letter: "#862040",
   Error: "#FF5449",
 };
 

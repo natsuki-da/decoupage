@@ -34,12 +34,14 @@ export const Container = styled.div`
   export const Subtitle = styled.div`
     font-size: 1.25rem;
     font-family: ${Fonts.SACRAMENTO};
+    color: ${Colors.Letter}
   `;
 
   export const Description = styled.div`
     font-size: 1rem;
     font-family: ${Fonts.SHIPPORI_MINCHO};
-    //text-align: center;
+    color: ${Colors.Letter};
+    text-align: center;
     padding: 2rem 0 0 0;
     width: 80%;
   `;
