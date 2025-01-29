@@ -4,10 +4,7 @@ import { Colors, Fonts } from "../../global/Global.Styles";
 export const Container = styled.div`
   width: 80%;
   height: 25rem;
-  margin: 4rem auto;
-  @media screen and (768px > width){
-   margin: 1rem auto;
-  }
+  margin: 3rem auto;
   background-color: ${Colors.SecondaryOpacity};
   display: flex;
   flex-direction: column;
