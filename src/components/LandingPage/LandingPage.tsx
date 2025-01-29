@@ -1,10 +1,12 @@
+import { Glossary } from "../../types/enums";
 import * as S from "./LandingPage.styles"
 
 const LandingPage = () => {
     return (
         <S.Container>
             <S.Left>
-                <S.Title>Atelier Rin</S.Title>
+                <S.Title>{Glossary.Title}</S.Title>
+                <S.Subtitle>{Glossary.Subtitle}</S.Subtitle>
             </S.Left>
             <S.Right>
             <S.Image src="../../images/main.JPG" alt="main picture" />

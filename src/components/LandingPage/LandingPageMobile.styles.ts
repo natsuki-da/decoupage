@@ -1,15 +1,27 @@
 import styled from "styled-components";
 import { Colors, Fonts } from "../../global/Global.Styles";
 
+// export const Container = styled.div`
+//   height: 40rem;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-evenly;
+//   align-items: center;
+//   margin: 5rem 0 1rem 0;
+//   background-color: ${Colors.Tertiary}
+//   @media screen and (768 > width){
+//      width: 60%;
+//      left: 25%;
+//     }
+// `;
+
 export const Container = styled.div`
-  // height: 30rem;
   height: 40rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin: 5rem 0 1rem 0;
-  //background-color: ${Colors.Tertiary}
 `;
 
   export const Image = styled.img`
@@ -19,13 +31,11 @@ export const Container = styled.div`
   `;
 
   export const TitleBlock = styled.div`
-    //background-color: ${Colors.Error};
-
+    padding-top: 2rem;
   `;
 
   export const Title = styled.div`
     font-size: 3rem;
-    // font-family: ${Fonts.CAVEAT};
     font-family: ${Fonts.Tangerine};
     color: ${Colors.Primary};
     font-weight: 700;

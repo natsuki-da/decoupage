@@ -10,6 +10,7 @@ export enum Nav {
     COURSE_LIST = "Courses"
   }  
 
-export enum Title {
-    Title = "Atelier Rin"
+export enum Glossary {
+    Title = "Atelier Rin",
+    Subtitle = "- Decoupage Salon in Nara -"
 }

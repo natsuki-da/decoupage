@@ -1,5 +1,5 @@
 import * as S from "./Menu.styles"
-import { Nav, Paths } from "../../types/enums";
+import { Glossary, Nav, Paths } from "../../types/enums";
 
 interface ClickedMenuState {
     isClickedMenu: boolean;
@@ -35,7 +35,7 @@ const Menu = (props: ClickedMenuState) => {
                     </S.MenuLinks>
                 </S.Menu_Middle>
                 <S.Menu_Bottom>
-                    <S.Title>Atelier Rin</S.Title>
+                    <S.Title>{Glossary.Title}</S.Title>
                     <S.Footer><a href=""><img src="../../icons/instagram.png" alt="instaram icon" /></a></S.Footer>
                 </S.Menu_Bottom>
             </S.Menu>

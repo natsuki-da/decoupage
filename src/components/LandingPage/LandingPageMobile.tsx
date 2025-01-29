@@ -1,3 +1,4 @@
+import { Glossary } from "../../types/enums";
 import * as S from "./LandingPageMobile.styles";
 
 const LandingPageMobile = () => {
@@ -5,8 +6,8 @@ const LandingPageMobile = () => {
         <S.Container>
             <S.Image src="../../images/main.JPG" alt="main picture" />
             <S.TitleBlock>
-                <S.Title>Atelier Rin</S.Title>
-                <S.Subtitle>- Decoupage Salon in Nara -</S.Subtitle>
+                <S.Title>{Glossary.Title}</S.Title>
+                <S.Subtitle>{Glossary.Subtitle}</S.Subtitle>
             </S.TitleBlock>
             <S.Description>
                 Atelier Rinへようこそ。<br />

@@ -9,6 +9,7 @@ export const Container = styled.div`
   export const Left = styled.div`
     flex: 3;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     //background-color: ${Colors.Primary};
@@ -19,6 +20,12 @@ export const Container = styled.div`
     font-family: ${Fonts.Tangerine};
     color: ${Colors.Primary};
     overflow: hidden;
+  `;
+
+  export const Subtitle = styled.div`
+    font-size: 2rem;
+    font-family: ${Fonts.SACRAMENTO};
+    color: ${Colors.Primary};
   `;
   
   export const Right = styled.div`

@@ -1,7 +1,7 @@
 import { useState } from "react"
 import * as S from "./Navigationbar.styles"
 import Menu from "./Menu";
-import { Paths, Title } from "../../types/enums";
+import { Glossary, Paths } from "../../types/enums";
 
 const Navigationbar = () => {
     const [isClickedMenu, setClickedMenu] = useState<boolean>(false);
@@ -13,7 +13,7 @@ const Navigationbar = () => {
             {!isClickedMenu && (
                 <S.Container>
                     <S.Header>
-                        <a href={Paths.HOME}><S.Title>{Title.Title}</S.Title></a>
+                        <a href={Paths.HOME}><S.Title>{Glossary.Title}</S.Title></a>
                         <S.Button onClick={clickedMenu} >
                             <S.Image src="../../icons/hamburger.svg" alt="menu icon" />
                         </S.Button>
