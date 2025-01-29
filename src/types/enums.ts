@@ -1,13 +1,13 @@
 export enum Paths {
     HOME = "/",
     ABOUT_ATELIER = "/about_atelier",
-    COURSE_LIST = "/courses"
+    Lessons = "/lessons"
 }
 
 export enum Nav {
     HOME = "Home",
     ABOUT_ATELIER = "About_Atelier",
-    COURSE_LIST = "Courses"
+    LESSONS = "Lessons"
   }  
 
 export enum Glossary {

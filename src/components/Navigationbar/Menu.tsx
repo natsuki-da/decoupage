@@ -29,8 +29,8 @@ const Menu = (props: ClickedMenuState) => {
                         <S.MenuLink href={Paths.ABOUT_ATELIER}>
                             <S.LinkName>{Nav.ABOUT_ATELIER}</S.LinkName>
                         </S.MenuLink>
-                        <S.MenuLink href={Paths.COURSE_LIST}>
-                            <S.LinkName>{Nav.COURSE_LIST}</S.LinkName>
+                        <S.MenuLink href={Paths.Lessons}>
+                            <S.LinkName>{Nav.LESSONS}</S.LinkName>
                         </S.MenuLink>
                     </S.MenuLinks>
                 </S.Menu_Middle>

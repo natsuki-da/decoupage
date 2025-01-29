@@ -1,7 +1,7 @@
 import Navigationbar from "../Navigationbar/Navigationbar";
-import * as S from "./CourseList.styles"
+import * as S from "./Lessons.styles"
 
-const CourseList = () => {
+const Lessons = () => {
     // const prev = () => {
     //     alert("PREV!!")
     // }
@@ -191,4 +191,4 @@ const CourseList = () => {
     );
 };
 
-export default CourseList;
+export default Lessons;
