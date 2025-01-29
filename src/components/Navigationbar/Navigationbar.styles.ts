@@ -1,55 +1,77 @@
 import styled from "styled-components";
 import { Colors, Fonts } from "../../global/Global.Styles";
 
-export const Main = styled.div`
-  font-family: ${Fonts.ROBOTO};
-  padding: 2rem;
+
+export const Container = styled.div`
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 7rem 0;
   background-color: ${Colors.Primary};
-  display: block;
-  overflow: hidden;
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+  opacity: 70%;
 `;
 
 export const Header = styled.div`
   display: flex;
-  align-items: baseline;
-  justify-content: end; 
-  position: relativ;
   height: 3rem;
-  width: 100%;
-  // background-color: ${Colors.Primary};
+  width: 95%;
+  justify-content: space-between;
+  a {
+  text-decoration: none;
+  }
+  //align-items: baseline;
+  //justify-content: end; 
+  //position: relativ;
   `;
 
-export const Button = styled.button`
+  export const Title = styled.div`
+  font-size: 2.5rem;
+  line-height: 3rem;
+  padding: 0 2rem;
+  font-family: ${Fonts.Tangerine};
+  color: ${Colors.Letter};
+`;
+
+  export const Button = styled.button`
   background-color: ${Colors.Primary};
-  &:hover{
-    background-color: ${Colors.White};
-  }
+  border: none;
+  cursor: pointer;
+  // &:hover{
+  //   background-color: ${Colors.PrimaryLight};
+  // }
 `;
 
 export const Image = styled.img`
-  width: 1.5rem;
-  color: ${Colors.White};
+  width: 2rem;
+  //color: ${Colors.White};
 `;
 
-export const Title = styled.div`
-  display: flex;
-  justify-content: center;
-  padding: 2rem 0;
-  font-size: 4rem;
-  font-family: ${Fonts.CAVEAT};
-  color: ${Colors.Primary};
-`;
+// export const Main = styled.div`
+//   font-family: ${Fonts.ROBOTO};'
+//   background-color: ${Colors.Primary};
+//   display: block;
+//   overflow: hidden;
 
-// export const Container = styled.div`
-//   display: flex;
-//   justify-content: space-around;
-//   padding: 1rem 30%;
+//   // .sticky {
+//   //   position: fixed;
+//   //   top: 0;
+//   //   width: 100%;
+//   // }
+  
 // `;
+
+// export const Header = styled.div`
+//   display: flex;
+//   align-items: baseline;
+//   justify-content: end; 
+//   position: relativ;
+//   height: 3rem;
+//   width: 100%;
+//   // background-color: ${Colors.Primary};
+//   `;
+
 
 export const HeaderLinks = styled.div`
   display: flex;

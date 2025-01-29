@@ -11,19 +11,19 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: ${Colors.Primary};
+    //background-color: ${Colors.Primary};
     `;
     
   export const Title = styled.div`
-    font-size: 4rem;
-    font-family: ${Fonts.CAVEAT};
-    color: ${Colors.PrimaryLight};
+    font-size: 6rem;
+    font-family: ${Fonts.Tangerine};
+    color: ${Colors.Primary};
     overflow: hidden;
   `;
   
   export const Right = styled.div`
     flex: 2;
-    background-color: ${Colors.White};
+    //background-color: ${Colors.White};
   `;
 
   export const Image = styled.img`

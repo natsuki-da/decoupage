@@ -1,15 +1,29 @@
+import { useState } from "react"
 import * as S from "./Navigationbar.styles"
+import Menu from "./Menu";
+import { Paths, Title } from "../../types/enums";
 
 const Navigationbar = () => {
+    const [isClickedMenu, setClickedMenu] = useState<boolean>(false);
+    const clickedMenu = () => {
+        setClickedMenu(true);
+    }
     return (
-        <S.Main>
-            <S.Header>
-                <S.Button>
-                {/* <S.Button onClick={handleDropdownMenu}> */}
-                    <S.Image src="../icons/flower-icon01.svg" />
-                </S.Button>
-            </S.Header>
-        </S.Main>
+        <>
+            {!isClickedMenu && (
+                <S.Container>
+                    <S.Header>
+                        <a href={Paths.HOME}><S.Title>{Title.Title}</S.Title></a>
+                        <S.Button onClick={clickedMenu} >
+                            <S.Image src="../../icons/hamburger.svg" alt="menu icon" />
+                        </S.Button>
+                    </S.Header>
+                </S.Container>
+            )}
+            {isClickedMenu && (
+                <Menu isClickedMenu={isClickedMenu} setClickedMenu={setClickedMenu} />
+            )}
+        </>
     )
 }
 

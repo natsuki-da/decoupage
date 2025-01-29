@@ -18,26 +18,28 @@ const Home = () => {
     <>
       {isDesktop &&
         <>
-          <LandingPage />
-          <News />
-          <Gallery />
-          <AboutDecoupage />
-          <AboutMe />
-          <AboutSchool />
-          <Course />
-          <Footer />
+          <S.Content>
+            <LandingPage />
+            <News />
+            <Gallery />
+            <AboutDecoupage />
+            <AboutMe />
+            <AboutSchool />
+            <Course />
+            <Footer />
+          </S.Content>
         </>
       }
       {!isDesktop &&
         <>
-          <S.Content>
+          <S.Content_Mobile>
             <LandingPageMobile />
             <NewsMobile />
             <About />
             {/* <AboutDecoupageMobile /> */}
             <Gallery />
             <Footer />
-          </S.Content>
+          </S.Content_Mobile>
         </>
       }
     </>
