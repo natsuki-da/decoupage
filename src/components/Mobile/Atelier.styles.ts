@@ -31,14 +31,6 @@ export const Header = styled.div`
   height: 12rem;
 `;
 
-// export const Image = styled.div`
-//   width: 100%;
-//   height: 12rem;
-//   background-image: url("../../images/welcome.jpeg");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// `;
-
 export const Top = styled.div`
  width: 100%;
  height: 100%;
@@ -59,7 +51,6 @@ export const TopContent = styled.div`
   flex-direction: column;
   align-items: center;
   color: ${Colors.Letter};
-  // background-color: ${Colors.Tertiary};
   background-color: ${Colors.SecondaryOpacity};
   @media screen and (900px > width){
   text-align: center;

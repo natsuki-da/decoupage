@@ -36,14 +36,24 @@ export const Right = styled.div`
 
 export const Title = styled.div`
     font-size: 2.5rem;
-    font-family: ${Fonts.CAVEAT};
+    font-family: ${Fonts.SACRAMENTO};
     margin: 2.5rem 0 1.5rem 0;
 `;
 
 export const Description = styled.div`
     font-size: 1rem;
-    font-family: ${Fonts.NOTO_SANS_JP};
+    font-family: ${Fonts.SHIPPORI_MINCHO};
     overflow-y: auto;
     height: 25rem;
     margin: 0 0 2rem 0;
+    #kaigyo {
+     width: 100%;
+     height: 1rem;
+    }
+     div {
+    padding: 2rem 0;
+  }
+  span {
+    padding: 1rem;
+  }
 `;

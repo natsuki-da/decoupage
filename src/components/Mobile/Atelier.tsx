@@ -1,3 +1,4 @@
+import { Glossary } from "../../types/enums";
 import Navigationbar from "../Navigationbar/Navigationbar";
 import * as S from "./Atelier.styles"
 
@@ -5,12 +6,10 @@ const Atelier = () => {
     return (
         <S.Container>
            <Navigationbar />
-            {/* <S.Header>
-                <S.Image />           
-            </S.Header> */}
+
             <S.Top>
                 <S.TopContent>
-                    <S.Title>Atelier Rin</S.Title>
+                    <S.Title>{Glossary.Atelier_Rin}</S.Title>
                     <S.Contents>
                         <S.Details>
                             <div>
@@ -39,7 +38,7 @@ const Atelier = () => {
             </S.Top>
             <S.Bottom>
                 <S.BottomContent>
-                    <S.Title>Ryoko</S.Title>
+                    <S.Title>{Glossary.Instructor}</S.Title>
                     <S.Profile>
                         デコパージュ教室Atelier Rinを主宰していますRyokoと申します。<br />
                         奈良市自宅にて、2024年秋にデコパージュ教室を開講いたしました。<br />

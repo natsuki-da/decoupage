@@ -1,4 +1,4 @@
-import { Paths } from "../../types/enums";
+import { Glossary, Paths } from "../../types/enums";
 import * as S from "./About.styles"
 
 const About = () => {
@@ -7,14 +7,16 @@ const About = () => {
         <S.Container>
             <S.Band>
                 <S.Title>
-                    About
+                    {Glossary.About}
                 </S.Title>
             </S.Band>
             <S.Content>
                 <a href={Paths.ABOUT_ATELIER}>
-                    <S.Article>Atelier</S.Article>
+                    <S.Article>{Glossary.Atelier}</S.Article>
                 </a>
-                <S.Article>Lessons</S.Article>
+                <a href={Paths.Lessons}>
+                    <S.Article>{Glossary.Lessons}</S.Article>
+                </a>
             </S.Content>
             <S.Image />
         </S.Container>
