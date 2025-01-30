@@ -21,6 +21,10 @@ export const Block = styled.div`
   height:  100%;
   background-color: ${Colors.SecondaryOpacity};
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
   @media screen and (1024px > width){
   width: 65%;
   }
@@ -28,15 +32,21 @@ export const Block = styled.div`
 
 export const Content = styled.div`
   margin: 5rem;
+  height: 90%;
+  overflow-y: hidden;
 `;
 
 export const Title = styled.div`
   font-size: 2.5rem;
-  font-family: ${Fonts.CAVEAT};
+  font-family: ${Fonts.SACRAMENTO};
   `;
 
   export const Description = styled.div`
-  font-family: ${Fonts.NOTO_SANS_JP};
+  font-family: ${Fonts.SHIPPORI_MINCHO};
   font-size: 1rem;
+  line-height: 2.5rem;
   padding: 4rem 1rem;
+  &:hover {
+   background-color: ${Colors.Secondary};
+  }
   `;

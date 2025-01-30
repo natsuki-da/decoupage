@@ -1,4 +1,5 @@
 import * as S from "../../components/News/NewsMobile.styles"
+import { Bttn } from "../../types/enums"
 import blogs from "./blog.json"
 
 const NewsMobile = () => {
@@ -22,7 +23,7 @@ const NewsMobile = () => {
                     })}
                 </S.Blog>
             </S.Content>
-            <S.Button>Read More</S.Button>
+            <S.Button>{Bttn.Read_More}</S.Button>
         </S.Container>
     )
 }

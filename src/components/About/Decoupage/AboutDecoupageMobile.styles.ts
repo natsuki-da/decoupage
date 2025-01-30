@@ -22,6 +22,7 @@ export const Block = styled.div`
 
 export const Content = styled.div`
   padding: 2rem;
+  height: 100%;
 `;
 
 export const Title = styled.div`

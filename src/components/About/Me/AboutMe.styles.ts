@@ -29,9 +29,10 @@ export const Title = styled.div`
 export const Description = styled.div`
     font-size: 1rem;
     font-family: ${Fonts.SHIPPORI_MINCHO};
-    overflow-y: auto;
     height: 25rem;
     margin: 0 0 2rem 0;
+    overflow-y: auto;
+
     #kaigyo {
      width: 100%;
      height: 1rem;
@@ -46,7 +47,7 @@ export const Right = styled.div`
   justify-content: center;
   @media screen and (1024px > width){
   margin: 0 5rem 0 0;}
-`; 
+`;
 
 export const Image = styled.img`
 height: 24rem;

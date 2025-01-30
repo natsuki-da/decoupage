@@ -7,6 +7,7 @@ export const Container = styled.div`
   background-color: ${Colors.SecondaryOpacity};
   margin: 6rem 0 0 0;
   display: flex;
+  align-items: center;
 `;
 
 export const Left = styled.div`
@@ -31,29 +32,59 @@ export const Right = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 0 20% 0 0;
+  padding: 0 10% 0 0;
+  height: 26rem;
 `;
 
 export const Title = styled.div`
     font-size: 2.5rem;
     font-family: ${Fonts.SACRAMENTO};
-    margin: 2.5rem 0 1.5rem 0;
+    margin: 1rem 0 1.25rem 0;
+    height: 20%;
 `;
 
 export const Description = styled.div`
     font-size: 1rem;
     font-family: ${Fonts.SHIPPORI_MINCHO};
-    overflow-y: auto;
-    height: 25rem;
-    margin: 0 0 2rem 0;
+    height: 70%;
     #kaigyo {
      width: 100%;
-     height: 1rem;
+     height: 1.5rem;
     }
-     div {
-    padding: 2rem 0;
-  }
-  span {
-    padding: 1rem;
-  }
+     @media screen and (960px > width > 768px){
+     overflow-y: auto;
+     }
 `;
+
+export const ButtonContainer = styled.div`
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+  export const Button = styled.div`
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: ${Colors.Primary};
+    color: ${Colors.White};
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    font-family: ${Fonts.SACRAMENTO};
+    font-size: 1.25rem;
+    a {
+    text-decoration: none;
+    cursor: point;
+    }
+  `;
+
+// export const Button = styled.div`
+//   width: 8rem;
+//   height: 3rem;
+//   background-color: ${Colors.Primary};
+// `
