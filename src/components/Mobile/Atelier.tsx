@@ -9,7 +9,7 @@ const Atelier = () => {
 
             <S.Top>
                 <S.TopContent>
-                    <S.Title>{Glossary.Atelier_Rin}</S.Title>
+                    <S.Title id="atelier_rin">{Glossary.Atelier_Rin}</S.Title>
                     <S.Contents>
                         <S.Details>
                             <div>
@@ -37,7 +37,7 @@ const Atelier = () => {
                 </S.TopContent>
             </S.Top>
             <S.Bottom>
-                <S.BottomContent>
+                <S.BottomContent id="instructor">
                     <S.Title>{Glossary.Instructor}</S.Title>
                     <S.Profile>
                         デコパージュ教室Atelier Rinを主宰していますRyokoと申します。<br />

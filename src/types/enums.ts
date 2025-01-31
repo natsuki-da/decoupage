@@ -1,6 +1,8 @@
 export enum Paths {
     HOME = "/",
     ABOUT_ATELIER = "/about_atelier",
+    ABOUT_ATELIER_RIN = "/about_atelier#atelier_rin",
+    ABOUT_INSTRUCTOR = "/about_atelier/#instructor",
     Lessons = "/lessons"
 }
 

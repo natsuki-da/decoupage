@@ -33,7 +33,7 @@ export const Block = styled.div`
 export const Content = styled.div`
   margin: 5rem;
   height: 90%;
-  overflow-y: hidden;
+  overflow-y: auto;
 `;
 
 export const Title = styled.div`

@@ -25,7 +25,7 @@ const AboutSchool = () => {
                     お気軽にお問合せください<br />
                 </S.Description>
                 <S.ButtonContainer>
-                    <S.Button><a href={Paths.ABOUT_ATELIER}>{Bttn.Read_More}</a></S.Button>
+                    <S.Button><a href={Paths.ABOUT_ATELIER_RIN}>{Bttn.Read_More}</a></S.Button>
                 </S.ButtonContainer>
             </S.Right>
         </S.Container>
