@@ -7,6 +7,7 @@ const Atelier = lazy(() => import("./components/Mobile/Atelier"));
 const Lessons = lazy(() => import("./components/Course/Lessons"));
 
 function App() {
+
   return (
     <Router>
       <Routes>
