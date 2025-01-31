@@ -7,6 +7,7 @@ export const Container = styled.div`
   margin: 2rem auto;
   display: flex;
   position: relative;
+  background-color: ${Colors.PrimaryLight};
   @media screen and (1024px > width){
     height: 25rem;
   } 
