@@ -12,8 +12,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',
-        lessons: 'Course/Course/index.html',
-        about_atelier: 'Mobile/Atelier/index.html',
+        lessons: 'Course.tsx/index.html',
+        about_atelier: 'Atelier.tsx/index.html',
       },
     },
   },
