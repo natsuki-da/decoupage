@@ -11,6 +11,8 @@ export const Container = styled.div`
   margin: 0 0 7rem 0;
   background-color: ${Colors.Primary};
   opacity: 70%;
+  position: sticky;
+  top: 0;
 `;
 
 export const Header = styled.div`
