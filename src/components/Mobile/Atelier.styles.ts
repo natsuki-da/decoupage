@@ -54,6 +54,7 @@ export const TopContent = styled.div`
   background-color: ${Colors.SecondaryOpacity};
   @media screen and (900px > width){
   text-align: center;
+  width: 85%;
   }
 `;
 
@@ -108,6 +109,7 @@ export const BottomContent = styled.div`
   padding-bottom: 5rem;
   @media screen and (900px > width){
     padding-bottom: 3rem;
+    width: 85%;
   }
 `;
 

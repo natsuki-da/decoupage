@@ -2,6 +2,7 @@ import { Bttn, Glossary, Paths } from "../../../types/enums";
 import * as S from "./AboutMe.styles";
 import { Link } from 'react-router-dom';
 
+
 const AboutMe = () => {
     
     return (
@@ -20,7 +21,7 @@ const AboutMe = () => {
                     みなさまとのご縁を心待ちにしています♡<br />
                 </S.Description>
                 <S.ButtonContainer>
-                    <S.Button><Link to={Paths.ABOUT_INSTRUCTOR}>{Bttn.Read_More}</Link></S.Button>
+                <S.Button><Link to={Paths.ABOUT_INSTRUCTOR}>{Bttn.Read_More}</Link></S.Button>
                 </S.ButtonContainer>
             </S.Left>
             <S.Right>

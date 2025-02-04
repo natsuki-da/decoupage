@@ -4,6 +4,8 @@ import { Colors, Fonts } from "../../global/Global.Styles";
 
 export const MenuContainer = styled.div`
   background-color: ${Colors.White};
+  // background-image: url("../../images/main.JPG");
+  // background-size: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,6 +23,8 @@ export const Menu = styled.div`
   text-align: center;
   width: 80%;
   height: 100%;
+  // background-color: ${Colors.White};
+  // opacity: 50%;
   img{
    width: 1.5rem;
    color: ${Colors.Letter};
@@ -28,7 +32,6 @@ export const Menu = styled.div`
 `;
  
 export const Menu_Top = styled.div`
-  //background-color: ${Colors.Secondary};
   width: 100%;
   height: 10%;
   display: flex;
@@ -78,7 +81,7 @@ export const Menu_Bottom = styled.div`
 
 export const Title = styled.div`
   font-family: ${Fonts.Tangerine};
-  font-size: 3rem;
+  font-size: 2rem;
   height: 60%;
   display: flex;
   flex-direction: column;
