@@ -6,8 +6,6 @@ import { useMediaQuery } from 'react-responsive';
 import { useRef } from 'react';
 import CourseBasic from './CourseBasic';
 import StepUpLesson from './StepUpLesson';
-import CourseBasicMobile from './CourseBasicMobile';
-import StepUpLessonMobile from './StepUpLessonMobile';
 
 const Course = () => {
     const sliderRef = useRef<Slider | null>(null);
@@ -36,14 +34,6 @@ const Course = () => {
                         <Slider ref={sliderRef} {...settings}>
                             <CourseBasic />
                             <StepUpLesson />
-                        </Slider>
-                    </S.SlidesContainer>
-                }
-                {!isDesktop &&
-                    <S.SlidesContainer>
-                        <Slider ref={sliderRef} {...settings}>
-                            <CourseBasicMobile />
-                            <StepUpLessonMobile />
                         </Slider>
                     </S.SlidesContainer>
                 }
