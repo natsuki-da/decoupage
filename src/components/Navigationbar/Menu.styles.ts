@@ -61,7 +61,7 @@ export const MenuLinks = styled.div`
   justify-content: space-evenly;
 `;
 
-export const MenuLink = styled.a`
+export const MenuLink = styled.div`
   text-decoration: none;
 `;
 
