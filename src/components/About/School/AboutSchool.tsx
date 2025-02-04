@@ -1,5 +1,6 @@
 import { Bttn, Glossary, Paths } from "../../../types/enums";
-import * as S from "./AboutSchool.styles"
+import * as S from "./AboutSchool.styles";
+import { Link } from 'react-router-dom';
 
 const AboutSchool = () => {
     return (
@@ -8,7 +9,7 @@ const AboutSchool = () => {
                 <S.Image src="../../images/basket01.JPG" alt="basket green" className="welcome" />
             </S.Left>
             <S.Right>
-                <S.Title>{Glossary.Atelier_Rin}</S.Title>
+                <S.Title>{Glossary.Title}</S.Title>
                 <S.Description>
                     <div>
                         デコパージュ教室Atelier Rinは、女性専用の少人数制（1~3名）のレッスンとなります。<br />
@@ -25,7 +26,7 @@ const AboutSchool = () => {
                     お気軽にお問合せください<br />
                 </S.Description>
                 <S.ButtonContainer>
-                    <S.Button><a href={Paths.ABOUT_ATELIER_RIN}>{Bttn.Read_More}</a></S.Button>
+                    <S.Button><Link to={Paths.ABOUT_ATELIER_RIN}>{Bttn.Read_More}</Link></S.Button>
                 </S.ButtonContainer>
             </S.Right>
         </S.Container>

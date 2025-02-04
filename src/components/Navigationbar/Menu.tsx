@@ -1,10 +1,11 @@
 import * as S from "./Menu.styles"
 import { Glossary, Nav, Paths } from "../../types/enums";
+import { Link } from "react-router-dom";
 
 interface ClickedMenuState {
     isClickedMenu: boolean;
     setClickedMenu: React.Dispatch<React.SetStateAction<boolean>>;
-};
+}
 
 const Menu = (props: ClickedMenuState) => {
 
@@ -23,15 +24,9 @@ const Menu = (props: ClickedMenuState) => {
                 </S.Menu_Top>
                 <S.Menu_Middle>
                     <S.MenuLinks>
-                        <S.MenuLink href={Paths.HOME}>
-                            <S.LinkName>{Nav.HOME}</S.LinkName>
-                        </S.MenuLink>
-                        <S.MenuLink href={Paths.ABOUT_ATELIER}>
-                            <S.LinkName>{Nav.ABOUT_ATELIER}</S.LinkName>
-                        </S.MenuLink>
-                        <S.MenuLink href={Paths.Lessons}>
-                            <S.LinkName>{Nav.LESSONS}</S.LinkName>
-                        </S.MenuLink>
+                        <S.MenuLink as={Link} to={Paths.HOME}>{Nav.HOME}</S.MenuLink>
+                        <S.MenuLink as={Link} to={Paths.ABOUT_ATELIER}>{Nav.ABOUT_ATELIER}</S.MenuLink>
+                        <S.MenuLink as={Link} to={Paths.Lessons}>{Nav.LESSONS}</S.MenuLink>
                     </S.MenuLinks>
                 </S.Menu_Middle>
                 <S.Menu_Bottom>

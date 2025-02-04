@@ -6,10 +6,9 @@ const Atelier = () => {
     return (
         <S.Container>
            <Navigationbar />
-
-            <S.Top>
+            <S.Top  id="atelier_rin">
                 <S.TopContent>
-                    <S.Title id="atelier_rin">{Glossary.Atelier_Rin}</S.Title>
+                    <S.Title>{Glossary.Title}</S.Title>
                     <S.Contents>
                         <S.Details>
                             <div>
@@ -36,8 +35,8 @@ const Atelier = () => {
                     </S.Contents>
                 </S.TopContent>
             </S.Top>
-            <S.Bottom>
-                <S.BottomContent id="instructor">
+            <S.Bottom id="instructor">
+                <S.BottomContent>
                     <S.Title>{Glossary.Instructor}</S.Title>
                     <S.Profile>
                         デコパージュ教室Atelier Rinを主宰していますRyokoと申します。<br />
@@ -101,7 +100,6 @@ const Atelier = () => {
                     </S.ProfileBottom>
                 </S.BottomContent>
             </S.Bottom>
-            {/* <S.Image /> */}
         </S.Container>
     )
 }

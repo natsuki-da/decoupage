@@ -28,7 +28,7 @@ const Lessons = () => {
             <S.Bottom>
                 <S.Lesson>
                     <S.LessonPlan>
-                        <S.LessonName>Trial Lesson<span>　トライアルレッスン　</span></S.LessonName>
+                        <S.LessonName>Trial Lesson<span>トライアルレッスン</span></S.LessonName>
                         <S.LessonContent>
                             ＊ 何か新しい趣味を見つけたい<br />
                             ＊ 自分時間を充実させたい<br />
@@ -54,7 +54,7 @@ const Lessons = () => {
                 <S.Lesson>
                     <S.LessonBasicPlan>
                         <S.LessonTop>
-                            <S.LessonName>Basic Course<span>　ベーシックコース　</span></S.LessonName>
+                            <S.LessonName>Basic Course<span>ベーシックコース</span></S.LessonName>
                             <S.LessonContent>
                                 ＊ デコパージュの様々な素材における、基本的な技術を身につけることができます。<br />
                                 ＊ デコパージュ初心者の方は、こちらのコースをお勧めいたします。<br />
@@ -118,7 +118,7 @@ const Lessons = () => {
                 </S.Lesson>
                 <S.Lesson>
                     <S.LessonPlan>
-                        <S.LessonName>Step Up Lesson<span>　ステップアップレッスン　</span></S.LessonName>
+                        <S.LessonName>Step Up Lesson<span>ステップアップレッスン</span></S.LessonName>
                         <S.LessonContent>
                             ＊ ベーシックコースで学んだことを活かしながら、さらに技術を磨くことができます。<br />
                             ＊ ロゴを取り入れることで、より自分好みの作品を創作できます。<br />
@@ -140,7 +140,7 @@ const Lessons = () => {
                 </S.Lesson>
                 <S.Lesson>
                     <S.LessonPlan>
-                        <S.LessonName>Atelier Maison de la Mer<span>　認定コース　</span></S.LessonName>
+                        <S.LessonName>Atelier Maison de la Mer<span>認定コース</span></S.LessonName>
                         <S.LessonContent>
                             ＊ 茅ヶ崎市デコパージュ教室Atelier Maison de la Merの以下のコースを、当教室でも受講することができます。<br />
                             ＊ ベーシックコースとはまた異なる技術や転写法を学ぶことができ、作品の幅が広がります。<br />
@@ -160,7 +160,7 @@ const Lessons = () => {
                 </S.Lesson>
                 <S.Lesson>
                     <S.LessonPlan>
-                        <S.LessonName>Free Lesson<span>　フリーレッスン　</span></S.LessonName>
+                        <S.LessonName>Free Lesson<span>フリーレッスン</span></S.LessonName>
                         <S.LessonContent>
                             ＊ ベーシックコースの受講終了後(受講途中可)、フリーレッスンを受講いただけます。<br />
                             ＊ 自由に素材を選びながらさらに作品の幅を広げ、デコパージュを楽しみましょう！<br />
@@ -176,7 +176,7 @@ const Lessons = () => {
                 </S.Lesson>
                 <S.Lesson>
                     <S.LessonPlan>
-                        <S.LessonName>Seasonal Lesson<span>　季節の1dayレッスン　</span></S.LessonName>
+                        <S.LessonName>Seasonal Lesson<span>季節の1dayレッスン</span></S.LessonName>
                         <S.LessonContent>
                             ＊ 不定期となりますが、季節を楽しむことができるレッスンを開講します。<br />
                             ＊ 開講の際は、当サイト、ブログやInstagramにて詳細をご案内いたします。<br />
