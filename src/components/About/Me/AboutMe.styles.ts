@@ -5,7 +5,7 @@ export const Container = styled.div`
 width: 100%;
 height: 30rem;
 background-color: ${Colors.SecondaryOpacity};
-margin: 6rem 0;
+margin: 6rem 0 0 0;
 display: flex;
 align-items: center;
 `;
@@ -33,8 +33,9 @@ export const Description = styled.div`
      width: 100%;
      height: 1.5rem;
     }
-     @media screen and (960px > width > 768px){
+     @media screen and (1024px > width > 768px){
      overflow-y: auto;
+     height: 60%;
      }
 `;
 

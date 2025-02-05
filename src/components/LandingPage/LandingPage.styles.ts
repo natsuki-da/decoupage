@@ -12,20 +12,22 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    //background-color: ${Colors.Primary};
+    background-color: ${Colors.Primary};
     `;
     
   export const Title = styled.div`
-    font-size: 6rem;
+    font-size: 5.5rem;
     font-family: ${Fonts.Tangerine};
-    color: ${Colors.Primary};
+    // color: ${Colors.Primary};
+    color: ${Colors.Secondary};
     overflow: hidden;
   `;
 
   export const Subtitle = styled.div`
     font-size: 2rem;
     font-family: ${Fonts.SACRAMENTO};
-    color: ${Colors.Primary};
+     // color: ${Colors.Primary};
+    color: ${Colors.Secondary};
   `;
   
   export const Right = styled.div`

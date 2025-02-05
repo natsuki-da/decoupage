@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Colors, Fonts } from "../../global/Global.Styles";
+import { Fonts } from "../../global/Global.Styles";
 
 export const Container = styled.div`
   width: 50%;
@@ -7,9 +7,9 @@ export const Container = styled.div`
   margin: 2rem auto;
   display: flex;
   position: relative;
-  background-color: ${Colors.PrimaryLight};
-  @media screen and (1024px > width){
+  @media screen and (1024px > width  > 768px){
     height: 25rem;
+    margin: 6rem  auto;
   } 
 `;
 
@@ -46,7 +46,6 @@ export const Title = styled.div`
    }
    a:hover {
    color: #000000;
-  //  color: ${Colors.Primary};
    font-weight: 900;
    }
   `;

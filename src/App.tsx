@@ -3,7 +3,7 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Paths } from "./types/enums";
 const Home = lazy(() => import("./components/Home/Home"));
-const Atelier = lazy(() => import("./components/Mobile/Atelier"));
+const Atelier = lazy(() => import("./components/About/Mobile/Me&Atelier/Atelier"));
 const Lessons = lazy(() => import("./components/Course/Lessons"));
 
 function App() {

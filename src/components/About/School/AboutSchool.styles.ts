@@ -51,8 +51,9 @@ export const Description = styled.div`
      width: 100%;
      height: 1.5rem;
     }
-     @media screen and (960px > width > 768px){
+     @media screen and (1250px > width > 768px){
      overflow-y: auto;
+     height: 60%;
      }
 `;
 
@@ -82,9 +83,3 @@ export const ButtonContainer = styled.div`
     cursor: point;
     }
   `;
-
-// export const Button = styled.div`
-//   width: 8rem;
-//   height: 3rem;
-//   background-color: ${Colors.Primary};
-// `
